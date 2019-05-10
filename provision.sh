@@ -22,7 +22,7 @@ sudo apt-get install -y nginx > /dev/null 2>&1
 
 # install php7-fpm
 echo "Installing PHP..."
-sudo apt-get install -y php7.3-fpm php7.3-mysql php7.3-xml php7.3-gd php7.3-zip > /dev/null 2>&1
+sudo apt-get install -y php7.3-fpm php7.3-mysql php7.3-xml php7.3-gd php7.3-zip php-mbstring > /dev/null 2>&1
 # install mariadb and give password to installer
 echo "Preparing MariaDB..."
 sudo apt-get install -y debconf-utils > /dev/null 2>&1
